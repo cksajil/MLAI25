@@ -34,15 +34,17 @@
 - Dice Loss 
 - IoU Loss (segmentation task)
 
-@@ -39,29 +33,28 @@ Optimizers
+### Optimizers
+
+- Gradient Descent (GD)
 	- Stochastic GD (SGD) — updates after each example (fast but noisy)
 	- Batch GD — uses all data (slow for large datasets)
 	- Mini-batch GD — updates after small batches (most common)
-- SGD with Momentum
-- Nesterov Accelerated Gradient (NAG)
-- Adagrad 
-- RMSProp
-- Adam (Adaptive Moment Estimation)
+- SGD with Momentum (Adds a velocity term to dampen oscillations and accelerate in relevant directions)
+- Nesterov Accelerated Gradient (NAG) (Looks ahead before computing the gradient for faster convergence)
+- Adagrad (larger updates for infrequent parameters, smaller for frequent one)
+- RMSProp (fixes Adagrad’s shrinking learning rate problem by using an exponential moving average of squared gradients)
+- Adam (Adaptive Moment Estimation) (Combines momentum and RMSProp ideas)
 
 
 
@@ -61,3 +63,4 @@ Activities
 3. Apply different optimizers (e.g Adam, RMSProp, Adagrad) for a deep learning task and compare loss curves (give different colors)
 4. Data Loader example
 5. Impliment a neural network in Keras using both sequential and functional APIs
+
