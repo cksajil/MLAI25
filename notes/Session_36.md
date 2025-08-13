@@ -13,7 +13,7 @@
 #### Regression
 - Mean Absolute Error (MAE): Average absolute difference between actual and predicted values.
 - Mean Squared Error (MSE): Average squared difference.
-  L_{\text{MSE}} = \frac{1}{N} \sum_{i=1}^N \left( y_i - \hat{y}_i \right)^2
+  $$L_{\text{MSE}} = \frac{1}{N} \sum_{i=1}^N \left( y_i - \hat{y}_i \right)^2$$
 - Root Mean Squared Error (RMSE): Square root of MSE.
 - R-squared (Δ²): Proportion of variance explained by the model.
 - Mean Absolute Percentage Error (MAPE): Percentage-based error.
@@ -51,6 +51,7 @@ Activities
 2. Apply different optimizers for a computationally demanding task and compare loss curves
 3. Data Loader example
 4. Impliment a neural network in Keras using both sequential and functional APIs
+
 
 
 
