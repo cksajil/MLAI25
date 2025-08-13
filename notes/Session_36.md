@@ -52,13 +52,13 @@ Optimizers
 - Data Loader in Keras
 
 Activities
-1. Impliment different loss functions without ML/DL libraries
-2. Apply different optimizers for a computationally demanding task and compare loss curves
-3. Data Loader example
-4. Impliment a neural network in Keras using both sequential and functional APIs
+1. Performance metric/Loss function activity
+	a. Write functions to compute MSE, RMSE, MAE using numpy only
+	b. Generate 100 random numbers for both y and yhat
+	c. compute MSE, RMSE, MAE using library and custom functions and verify if both are same
+2. Do a similar excercise for Binary Cross-Entropy
 
 
-
-
-
-
+3. Apply different optimizers for a computationally demanding task and compare loss curves
+4. Data Loader example
+5. Impliment a neural network in Keras using both sequential and functional APIs
