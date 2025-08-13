@@ -29,7 +29,7 @@
 - Categorical Cross-Entropy
   $$L_{\text{CCE}} = - \sum_{c=1}^C y_c \log(\hat{y}_c)$$
 - Sparse Categorical Cross-Entropy
-  $$L_{\text{SparseCCE}} = - \log\left( \hat{y}_{y_{\text{true}}} \right)$$
+
 
 - Dice Loss 
 - IoU Loss (segmentation task)
@@ -56,6 +56,7 @@ Activities
 2. Apply different optimizers for a computationally demanding task and compare loss curves
 3. Data Loader example
 4. Impliment a neural network in Keras using both sequential and functional APIs
+
 
 
 
