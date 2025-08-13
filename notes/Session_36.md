@@ -21,10 +21,15 @@
 #### Loss Functions in DL
 - Mean Squared Error
 - Mean Absolute Error
+  $$L_{\text{MAE}} = \frac{1}{N} \sum_{i=1}^N \left| y_i - \hat{y}_i \right|$$
 
 - Binary Cross-Entropy (Log Loss)
-- Categorical Cross-Entropy 
+  $$L_{\text{BCE}} = - \frac{1}{N} \sum_{i=1}^N \left[ y_i \log(\hat{y}_i) + (1-y_i) \log(1 - \hat{y}_i) \right]$$
+
+- Categorical Cross-Entropy
+  $$L_{\text{CCE}} = - \sum_{c=1}^C y_c \log(\hat{y}_c)$$
 - Sparse Categorical Cross-Entropy
+  $$L_{\text{SparseCCE}} = - \log\left( \hat{y}_{y_{\text{true}}} \right)$$
 
 - Dice Loss 
 - IoU Loss (segmentation task)
@@ -51,6 +56,7 @@ Activities
 2. Apply different optimizers for a computationally demanding task and compare loss curves
 3. Data Loader example
 4. Impliment a neural network in Keras using both sequential and functional APIs
+
 
 
 
