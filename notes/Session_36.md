@@ -52,9 +52,8 @@ Activities
 	b. Generate 100 random numbers for both y and yhat
 	c. compute MSE, RMSE, MAE using library and custom functions and verify if both are same
 2. Do a similar excercise for Binary Cross-Entropy (here y and yhat is allowed to have only 0 or 1 as value)
-
-
-3. Apply different optimizers for a computationally demanding task and compare loss curves
+3. Apply different optimizers (e.g Adam, RMSProp, Adagrad) for a deep learning task and compare loss curves (give different colors)
 4. Data Loader example
 5. Impliment a neural network in Keras using both sequential and functional APIs
+
 
