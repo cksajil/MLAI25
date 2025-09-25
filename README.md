@@ -43,7 +43,7 @@ Reference repository containing a list of topics across various sessions from th
 |    38   | Soft Skills #03 - Teamwork and Collaboration                                         | [session_38.md](notes/session_38.md) |              |
 |    39   | Frameworks for DL: TensorFlow vs PyTorch Basics                                      | [session_39.md](notes/session_39.md) |              |
 |    40   | Working with Images: Image formats, OpenCV, Preprocessing                            | [session_40.md](notes/session_40.md) |              |
-|    41   | CNN basics: Filters, Strides, Padding, Pooling, CNN Architecture, BackPropagation    | [session_41.md](notes/session_41.md) |              |
+|    41   | CNN basics: Filters, Strides, Padding, Pooling, CNN Architecture, BackPropagation    | [session_41.md](notes/Session_41.md) |              |
 |    42   | CNN Architectures: VGG, ResNet, EfficientNet                                         | [session_42.md](notes/session_42.md) |              |
 |    43   | Case Study – CV                                                                      | [session_43.md](notes/session_43.md) |              |
 |    44   | Introduction to NLP: Text Cleaning, Tokenization, Stop Words                         | [session_44.md](notes/session_44.md) |              |
