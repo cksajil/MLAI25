@@ -22,7 +22,7 @@ Reference repository containing a list of topics across various sessions from th
 |    17   | Handling Missing Values, Duplicates, Outliers                                        | [session_17.md](notes/session_17.md) |              |
 |    18   | Encoding, Scaling, Transformation Techniques                                         | [session_18.md](notes/session_18.md) |              |
 |    19   | Advanced Techniques – Binning, Polynomial Features                                   | [session_19.md](notes/session_19.md) |              |
-|    20   | Correlation, Mutual Info, Variance Threshold                                         | [session_20.md](notes/session_20.md) |              |
+|    20   | Correlation, Mutual Info, Variance Threshold                                         | [session_20.md](notes/Session_20.md) |              |
 |    21   | Complete EDA and Preprocessing Workflow                                              | [session_21.md](notes/session_21.md) |              |
 |    22   | Linear & Polynomial Regression                                                       | [session_22.md](notes/session_22.md) |              |
 |    23   | Soft Skills #01 - Communication Skills                                               | [session_23.md](notes/session_23.md) |              |

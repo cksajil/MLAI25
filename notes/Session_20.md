@@ -1,0 +1,28 @@
+- Correlation
+	- Definition of correlation (Pearson, Spearman)
+	- Positive vs Negative vs No correlation
+	- Correlation matrix
+	- Multicollinearity issues
+	- Thresholding based on correlation (e.g., dropping features with |r| > 0.9)
+	- Code
+
+- Variance threshold
+	- What is variance of a feature?
+	- Low variance = little information content
+    - Removing features that don’t vary across samples
+    - Mostly useful in high-dimensional data (e.g., text or genomic)
+    - Code
+
+- Mutual Information
+	- Amount of shared information between two variables
+	- Works for non-linear relationships
+	- Especially useful for classification
+	- Difference from correlation
+	- Mutual Information between two variables measures the reduction in uncertainty about one variable given knowledge of the other.
+	- MI = 0 means the variables are independent.
+    - Higher MI means a stronger relationship (not necessarily linear).
+    - When to Use Mutual Information
+		- For classification or regression tasks
+		- When features might have non-linear relationships with the target
+		- To rank features by importance before model building
+	- Code
