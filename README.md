@@ -35,7 +35,7 @@ Reference repository containing a list of topics across various sessions from th
 |    30   | Soft Skills #02 - Emotional Intelligence                                             | [session_30.md](notes/session_30.md) |              |
 |    31   | K-means, Agglomerative, DBSCAN                                                       | [session_31.md](notes/session_31.md) |              |
 |    32   | PCA, t-SNE, UMAP                                                                     | [session_32.md](notes/session_32.md) |              |
-|    33   | Generative vs Discriminative Models                                                  | [session_33.md](notes/session_33.md) |              |
+|    33   | Generative vs Discriminative Models                                                  | [session_33.md](notes/Session_33.md) |              |
 |    34   | Unsupervised Workflow                                                                | [session_34.md](notes/session_34.md) |              |
 |    35   | Introduction to Neural Networks: Perceptron, Backpropagation, Activation Functions   | [session_35.md](notes/session_35.md) |              |
 |    36   | Deep Learning Concepts: Optimizers, Loss Functions, Epochs, Batch Size,Learning Rate | [session_36.md](notes/session_36.md) |              |
