@@ -47,7 +47,7 @@ Reference repository containing a list of topics across various sessions from th
 |    42   | CNN Architectures: VGG, ResNet, EfficientNet                                         | [session_42.md](notes/session_42.md) |              |
 |    43   | Case Study – CV                                                                      | [session_43.md](notes/session_43.md) |              |
 |    44   | Introduction to NLP: Text Cleaning, Tokenization, Stop Words                         | [session_44.md](notes/session_44.md) |              |
-|    45   | Bag of Words, TF-IDF, N-grams                                                        | [session_45.md](notes/session_45.md) |              |
+|    45   | Bag of Words, TF-IDF, N-grams                                                        | [session_45.md](notes/Session_45.md) |              |
 |    46   | Word Embeddings: Word2Vec, GloVe, FastText                                           | [session_46.md](notes/session_46.md) |              |
 |    47   | RNN, LSTM, GRU Basics                                                                | [session_47.md](notes/session_47.md) |              |
 |    48   | Case Study on NLP                                                                    | [session_48.md](notes/session_48.md) |              |
