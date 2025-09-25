@@ -52,7 +52,7 @@ Reference repository containing a list of topics across various sessions from th
 |    47   | RNN, LSTM, GRU Basics                                                                | [session_47.md](notes/session_47.md) |              |
 |    48   | Case Study on NLP                                                                    | [session_48.md](notes/session_48.md) |              |
 |    49   | LLMs and Transformers: Transformers, BERT, T5, GPT Fundamentals                      | [session_49.md](notes/session_49.md) |              |
-|    50   | Prompt  Engineering:Few-shot, Chain-of-Thought, Zero-shot                            | [session_50.md](notes/session_50.md) |              |
+|    50   | Prompt  Engineering:Few-shot, Chain-of-Thought, Zero-shot                            | [session_50.md](notes/Session_50.md) |              |
 |    51   | Applications of GenAI: LLM for Summarization, Q&A, Co-pilot Scenarios                | [session_51.md](notes/session_51.md) |              |
 |    52   | Collaborative vs Content-based Filtering                                             | [session_52.md](notes/session_52.md) |              |
 |    53   | Cosine Similarity, Matrix Factorization                                              | [session_53.md](notes/session_53.md) |              |
