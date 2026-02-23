@@ -16,6 +16,12 @@
 ## RNN
 ![](https://colah.github.io/posts/2015-08-Understanding-LSTMs/img/LSTM3-SimpleRNN.png)
 
+
+$$h_t = \tanh(W_x x_t + W_h h_{t-1} + b)$$
+
+$$y_t = W_yh_t$$
+
+
 ```python
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import SimpleRNN, Dense, Input
@@ -38,6 +44,39 @@ LSTM introduces:
 - Output gate
 - Cell state
 
+Let the concatenated input be:
+
+$$z_t = [h_{t-1}, x_t]$$
+
+
+- Forget Gate
+
+$$f_t = \sigma(W_f z_t + b_f)$$
+![](https://colah.github.io/posts/2015-08-Understanding-LSTMs/img/LSTM3-focus-f.png)
+- Input Gate
+$$i_t = \sigma(W_i z_t + b_i)$$
+
+- Cell State
+$$\tilde{C}_t = \tanh(W_c z_t + b_c)$$
+
+![](https://colah.github.io/posts/2015-08-Understanding-LSTMs/img/LSTM3-focus-i.png)
+
+- Cell State Update
+
+$$ C_t = f_t \odot C_{t-1} + i_t \odot \tilde{C}_t$$
+
+![](https://colah.github.io/posts/2015-08-Understanding-LSTMs/img/LSTM3-focus-C.png)
+
+- Output Gate
+
+$$o_t = \sigma(W_o z_t + b_o)$$
+
+- Hidden State
+
+$$ h_t = o_t \odot \tanh(C_t)$$
+
+![](https://colah.github.io/posts/2015-08-Understanding-LSTMs/img/LSTM3-focus-o.png)
+
 ![](https://colah.github.io/posts/2015-08-Understanding-LSTMs/img/LSTM3-chain.png)
 
 ```python
@@ -58,6 +97,8 @@ GRU simplifies LSTM:
 - Update gate
 - Reset gate
 - No separate cell state
+
+![](https://colah.github.io/posts/2015-08-Understanding-LSTMs/img/LSTM3-var-GRU.png)
 
 ![](https://colah.github.io/posts/2015-08-Understanding-LSTMs/img/LSTM3-var-GRU.png)
 
