@@ -14,6 +14,10 @@
 ![](https://karpathy.github.io/assets/rnn/diags.jpeg)
 
 ## RNN
+![](https://colah.github.io/posts/2015-08-Understanding-LSTMs/img/RNN-rolled.png)
+
+![](https://colah.github.io/posts/2015-08-Understanding-LSTMs/img/RNN-unrolled.png)
+
 ![](https://colah.github.io/posts/2015-08-Understanding-LSTMs/img/LSTM3-SimpleRNN.png)
 
 
@@ -100,7 +104,7 @@ GRU simplifies LSTM:
 
 ![](https://colah.github.io/posts/2015-08-Understanding-LSTMs/img/LSTM3-var-GRU.png)
 
-![](https://colah.github.io/posts/2015-08-Understanding-LSTMs/img/LSTM3-var-GRU.png)
+
 
 ```python
 from tensorflow.keras.layers import GRU
