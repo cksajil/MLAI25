@@ -6,10 +6,10 @@
     - Seq-Seq
 - Why we need sequential models
     - Real life Problems
-        - One to One
-        - One to Many
-        - Many to One
-        - Many to Many
+        - One to One (e.g. Image classification)
+        - One to Many (e.g. Image Captioning)
+        - Many to One (e.g. Sentiment Analysis)
+        - Many to Many (e.g. Language Translation)
 
 ![](https://karpathy.github.io/assets/rnn/diags.jpeg)
 
@@ -48,6 +48,7 @@ LSTM introduces:
 - Output gate
 - Cell state
 
+## Take a look at each Gate
 Let the concatenated input be:
 
 $$z_t = [h_{t-1}, x_t]$$
@@ -57,6 +58,7 @@ $$z_t = [h_{t-1}, x_t]$$
 
 $$f_t = \sigma(W_f z_t + b_f)$$
 ![](https://colah.github.io/posts/2015-08-Understanding-LSTMs/img/LSTM3-focus-f.png)
+
 - Input Gate
 $$i_t = \sigma(W_i z_t + b_i)$$
 
@@ -105,7 +107,6 @@ GRU simplifies LSTM:
 ![](https://colah.github.io/posts/2015-08-Understanding-LSTMs/img/LSTM3-var-GRU.png)
 
 
-
 ```python
 from tensorflow.keras.layers import GRU
 
@@ -118,8 +119,6 @@ model_gru = Sequential([
 model_gru.compile(optimizer='adam', loss='mse')
 history_gru = model_gru.fit(X_train, y_train, epochs=10, validation_data=(X_test, y_test))
 ```
-
-
 
 - Drawbacks of RNN, LSTM, GRUs
     - Vanishing Gradient
