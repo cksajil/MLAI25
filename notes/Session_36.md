@@ -54,6 +54,21 @@
 - Regularization
 - Data Loader in Keras
 
+Visualizing Neural Network (Summary & Plot Model)
+Sequential and Functional API
+
+Batch Normalization
+Weight Initialization Methods
+Regularization
+Data Loader in Keras
+
+GPU Access
+	- GPU usage in Google Colab
+	- GPU usage in Kaggle
+Kaggle
+	- Code Version Control in Kaggle
+	- Data Version Control in Kaggle
+
 Activities
 1. Performance metric/Loss function activity
 - Write functions to compute MSE, RMSE, MAE using numpy only
