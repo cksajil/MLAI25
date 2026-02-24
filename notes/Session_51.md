@@ -27,7 +27,7 @@
 
 Seq2Seq Training Data Samples
 
-🔹 1. Machine Translation (English → Malayalam)
+1. Machine Translation (English → Malayalam)
 
 	Input (source language): "I love machine learning"
 
@@ -36,7 +36,7 @@ Seq2Seq Training Data Samples
 	Looks like paired bilingual sentences.
 	📂 Dataset example: WMT, OPUS
 
-🔹 2. Text Summarization
+2. Text Summarization
 
 	Input: "Article: The Transformer architecture was introduced in 2017 by Vaswani et al. It replaced recurrence with attention and became the foundation of BERT, GPT, T5, etc."
 
@@ -45,7 +45,7 @@ Seq2Seq Training Data Samples
 	Paired (document, summary).
 	📂 Dataset example: CNN/DailyMail
 
-🔹 3. Sentiment Classification
+3. Sentiment Classification
 
 	Input: "Review: The movie was boring and too long."
 
@@ -54,7 +54,7 @@ Seq2Seq Training Data Samples
 	Here, instead of generating long text, the model outputs a label token.
 	📂 Dataset example: IMDB, SST-2
 
-🔹 4. Question Answering
+4. Question Answering
 
 	Two common types:
 
@@ -80,7 +80,7 @@ Seq2Seq Training Data Samples
 
 	📂 Dataset example: SQuAD, Natural Questions
 
-🔹 5. Text Generation (Language Modeling, GPT)
+5. Text Generation (Language Modeling, GPT)
 
 	Input: "Once upon a time"
 
@@ -97,7 +97,7 @@ Seq2Seq Training Data Samples
 
 	📂 Dataset example: BooksCorpus, WebText
 
-🔹 6. T5’s Unified “Text-to-Text” Format
+6. T5’s Unified “Text-to-Text” Format
 
 	T5 makes all tasks look like input text → output text:
 
@@ -113,5 +113,5 @@ Seq2Seq Training Data Samples
 	Input: "question: Who founded Microsoft? context: Microsoft was founded by Bill Gates and Paul Allen."
 	Output: "Bill Gates and Paul Allen"
 
-Notebooks
-	https://huggingface.co/datasets/bird-of-paradise/transformer-from-scratch-tutorial/blob/main/Transformer_Implementation_Tutorial.ipynb
+- Notebooks
+	- https://huggingface.co/datasets/bird-of-paradise/transformer-from-scratch-tutorial/blob/main/Transformer_Implementation_Tutorial.ipynb
