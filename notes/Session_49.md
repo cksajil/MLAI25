@@ -1,6 +1,5 @@
-# Chat-GPT (Generative Pretrained Transformer)
 
-## Evolution of Deep Learning Models (till ChatGPT-5)
+# Evolution of Deep Learning Models (till ChatGPT-5)
 1. Early Neural Networks (1950s–1990s)
 - Perceptron (1958) – Rosenblatt’s single-layer neural net. Couldn’t model XOR.
 - Backpropagation (1986, Rumelhart et al.) – Enabled training of multi-layer neural networks.
@@ -53,6 +52,84 @@
 - Likely more multimodal (text, vision, audio).
 - Represents the current state of the art in general-purpose AI assistants.
 
+# LLMs and Transformers
+- Transformers
+- BERT
+- T5
+- GPT Fundamentals
+
+## Why Transformers
+### Why Transformers?
+Before 2017, NLP models were dominated by:
+- Recurrent Neural Network (RNN)
+- Long Short-Term Memory (LSTM)
+- Gated Recurrent Unit (GRU)
+
+❌ Core Problems of RNNs
+- Sequential processing → slow
+- Vanishing gradients
+- Poor long-range dependency capture
+- Not parallelizable
+
+### The Breakthrough: Attention Is All You Need (2017)
+Everything changed with:
+- Attention Is All You Need
+- Authors from Google Brain
+- Introduced the Transformer architecture
+
+### Transformer Architecture
+- Encoder Block
+    - Multi-head attention
+    - Add & LayerNorm
+    - Feedforward network
+    - Add & LayerNorm
+
+- Decoder Block
+    - Masked self-attention
+    - Encoder-decoder attention
+    - Feedforward
+
+### BERT
+- Introduced by Google in 2018
+- Key Idea: Bidirectional Encoding
+- Unlike GPT: BERT reads both left and right context.
+- Applications
+    - Pretraining Tasks: Masked Language Modeling (MLM)
+    - Next Sentence Prediction (NSP)
+
+- Architecture
+    - Encoder-only Transformer
+    - No decoder
+    - Deep bidirectional self-attention
+
+- BERT Works Well For:
+    - Classification
+    - NER
+    - Question answering
+    - Sentiment analysis
+
+### GPT (Generative Pretrained Transformer)
+- Created by OpenAI
+- Decoder-only Transformer
+- Masked self-attention
+- Causal mask
+- Left-to-right generation
+- Performance improves with:
+    - Model size
+    - Data size
+    - Compute
+- GPT Strengths
+    - Text generation
+    - Few-shot learning
+    - Instruction following
+    - Creative writing
+    
+## Architectural Comparison
+| Model | Architecture    | Direction     | Good For      |
+| ----- | --------------- | ------------- | ------------- |
+| BERT  | Encoder-only    | Bidirectional | Understanding |
+| GPT   | Decoder-only    | Left-to-right | Generation    |
+| T5    | Encoder-Decoder | Seq2Seq       | Both          |
 
 ## Tutorials
 1. https://www.datacamp.com/tutorial/building-a-transformer-with-py-torch
