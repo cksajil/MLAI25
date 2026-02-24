@@ -17,6 +17,8 @@
 - Seq2Seq (2014, Sutskever) – Encoder–decoder for machine translation.
 - Attention (2015, Bahdanau et al.) – Allowed models to focus on important parts of a sequence.
 
+## RNN (1980) -->LSTM (1997)-->Attention (2014)-->Transformers (2017)
+
 4. Transformers (2017–2018)
 - “Attention is All You Need” (Vaswani et al., 2017)
 - No recurrence, no convolutions → just attention.
@@ -78,6 +80,7 @@ Everything changed with:
 - Introduced the Transformer architecture
 
 ### Transformer Architecture
+#### Architecture Diagram
 - Encoder Block
     - Multi-head attention
     - Add & LayerNorm
@@ -88,6 +91,7 @@ Everything changed with:
     - Masked self-attention
     - Encoder-decoder attention
     - Feedforward
+- Attention Mechanisms
 
 ### BERT
 - Introduced by Google in 2018
@@ -123,13 +127,20 @@ Everything changed with:
     - Few-shot learning
     - Instruction following
     - Creative writing
-    
+
 ## Architectural Comparison
 | Model | Architecture    | Direction     | Good For      |
 | ----- | --------------- | ------------- | ------------- |
 | BERT  | Encoder-only    | Bidirectional | Understanding |
 | GPT   | Decoder-only    | Left-to-right | Generation    |
 | T5    | Encoder-Decoder | Seq2Seq       | Both          |
+
+
+## LLMS
+- large refers to number of parameters
+- Venn diagram of AI->ML->DL->LLM
+- Three stages of LLM
+- GPT is next word prediction
 
 ## Tutorials
 1. https://www.datacamp.com/tutorial/building-a-transformer-with-py-torch
