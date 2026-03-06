@@ -1,20 +1,20 @@
-Design Thinking
-	- A human centric, iterative problem solving method/mindset
+# Design Thinking
+ - A human centric, iterative problem solving method/mindset
 
-Alternatives
-	Critical Thinking
-	Logical Thinking
-	Creative Thinking
-	Scientific Thinking
+# Alternatives
+- Critical Thinking
+- Logical Thinking
+- Creative Thinking
+- Scientific Thinking
 
-Stages
-	- Empathise
-	- Define
-	- Ideate
-	- Prototype 
-	- Test
+# Stages
+- Empathise
+- Define
+- Ideate
+- Prototype 
+- Test
 
-Emapathy Mapping
+# Emapathy Mapping
 	What did they say ?
 		I dont have much time for lunch
 		I want something healthy but affordable

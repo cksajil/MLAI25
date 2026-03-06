@@ -1,38 +1,37 @@
-Introduction to Natural Language Processing (NLP)
+# Introduction to Natural Language Processing (NLP)
+- Sentiment Analysis
+- Text Translation
+- Speech to Text (S2T)
+- Text to Speech (T2S)
+- Text Summarization
+- Named Entity Recognition (NER)
+- Chatboats
+- Large Language Models
 
-	- Sentiment Analysis
-	- Text Translation
-	- Speech to Text (S2T)
-	- Text to Speech (T2S)
-	- Text Summarization
-	- Named Entity Recognition (NER)
-	- Chatboats
-	- Large Language Models
+# NLP Data Preprocessing/Text Cleaning Steps
+- Lowercase conversion
+	- Tool/Technique: Regular expression
+- Tokenization
+- Stopwords removal
+	- Remove Punctuations
+- Stemming
+- Lemmatization
+- Embedding
+	- Corpus
+	- Document/review
+	- Corpus vocabulary
+	- Bag of Words (BoW)
+		- Binary Bag of Words
+		- Count Vectorirzation
+		- Term Frequency-Inverse Document Frequency (TF-IDF)
+		- Ngrams
+		- Word2Vec (W2V)
+		- Average Word2Vec (AvgW2V)
+		- TF-IDF weighted Word2Vec
 
-NLP Data Preprocessing/Text Cleaning Steps
-	- Lowercase conversion
-		- Tool/Technique: Regular expression
-	- Tokenization
-	- Stopwords removal
-		- Remove Punctuations
-	- Stemming
-	- Lemmatization
-	- Embedding
-		- Corpus
-		- Document/review
-		- Corpus vocabulary
-		- Bag of Words (BoW)
-			- Binary Bag of Words
-			- Count Vectorirzation
-			- Term Frequency-Inverse Document Frequency (TF-IDF)
-			- Ngrams
-			- Word2Vec (W2V)
-			- Average Word2Vec (AvgW2V)
-			- TF-IDF weighted Word2Vec
-
-NLP Libraries
-	- Natural Language Tool Kit (NLTK)
-	- Spacy
+# NLP Libraries
+- Natural Language Tool Kit (NLTK)
+- Spacy
 
 @everyone Classroom Activity: Apply a classical machine learning model and deep learning model to NLP Spam/non-spam example. Train and evaluate the models. Select the model with best accuracy. Convert all preprocessing steps to a single function. Demonstrate the model output for a sample test input.
 

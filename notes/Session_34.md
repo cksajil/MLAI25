@@ -1,13 +1,13 @@
-Supervised Learning
-	- Classification
-	- Regression
+# Supervised Learning
+- Classification
+- Regression
 
-Un-Supervised Learning
-	- K-Means
-	- Agglomerative HC
-	- DBSCAN
+# Un-Supervised Learning
+- K-Means
+- Agglomerative HC
+- DBSCAN
 
-Reinforcement Learning
+# Reinforcement Learning
 
 K-Means Lloyd's algorithm
 
